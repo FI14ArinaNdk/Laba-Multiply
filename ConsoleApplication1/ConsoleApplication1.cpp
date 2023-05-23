@@ -20,9 +20,9 @@ std::string multiplyHexNumbers(const std::string& hexNumber1, const std::string&
 }
 
 int main() {
-    std::string inputFile1 = "C:\\Users\\arina\\Desktop\\input1.txt";  // Шлях до першого вхідного файлу
-    std::string inputFile2 = "C:\\Users\\arina\\Desktop\\input2.txt";  // Шлях до другого вхідного файлу
-    std::string outputFile = "C:\\Users\\arina\\Desktop\\output.txt";  // Шлях до вихідного файлу
+    std::string inputFile1 = "input1.txt";  // Шлях до першого вхідного файлу
+    std::string inputFile2 = "input2.txt";  // Шлях до другого вхідного файлу
+    std::string outputFile = "output.txt";  // Шлях до вихідного файлу
 
     // Зчитування вхідних файлів
     std::ifstream file1(inputFile1);
